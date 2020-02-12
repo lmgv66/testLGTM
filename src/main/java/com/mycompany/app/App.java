@@ -11,6 +11,10 @@ public class App
     public App() {}
 
     public static void main(String[] args) {
+        int i = 0;
+        if ( i==0 ) {
+        }
+        
         System.out.println(new App().getMessage());
     }
 
