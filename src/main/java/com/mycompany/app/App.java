@@ -17,8 +17,15 @@ public class App
     private final String getMessage() {
         int kk=0;
         if ( kk==1 ) {}
-        if ( kk==0 ) {}
+        if ( kk==0 ) { foo(); }
         return message;
     }
 
+    private static void foo() {
+        int pp=0;
+        if ( pp==0 ) {}
+        if ( pp==1 ) { foo(); }
+        return;
+    }
+    
 }
