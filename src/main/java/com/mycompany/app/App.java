@@ -22,9 +22,9 @@ public class App
     }
 
     private static void foo() {
-        int pp=0;
-        if ( pp==0 ) {}
-        if ( pp==1 ) { foo(); }
+        int kk=0;
+        if ( kk==0 ) {}
+        if ( kk==1 ) { foo(); }
         return;
     }
     
