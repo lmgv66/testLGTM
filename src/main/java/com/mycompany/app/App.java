@@ -21,10 +21,11 @@ public class App
         return message;
     }
 
-    private static foo() {
+    private static void foo() {
         int pp=0;
         if ( pp==0 ) {}
         if ( pp==1 ) { foo(); }
+        return;
     }
     
 }
